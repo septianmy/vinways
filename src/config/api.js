@@ -3,7 +3,7 @@ import axios from "axios";
 export const Port = "http://localhost:5001";
 
 export const API = axios.create({
-    baseURL: "http://localhost:5001/api/v1",
+    baseURL: "http://vinways.herokuapp.com/api/v1",
 });
 
 export const setAuthToken = (token) => {
