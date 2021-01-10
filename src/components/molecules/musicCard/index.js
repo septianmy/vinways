@@ -52,9 +52,7 @@ const MusicCard = ({musicdata, handlePlayer, setPlayIndex, index, playIndex}) =>
                         <div className="card-text music-year">{year}</div>
                     </div>
                     <div className="card-text album">
-                        {
-                            musicdata.artists.name !== null ? musicdata.artists.name : <>Artist</>
-                        }
+                        
                     </div>
                 </div>
             </div></a>
