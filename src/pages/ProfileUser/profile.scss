@@ -1,0 +1,32 @@
+.profile-user {
+  color: white;
+  font-size: 18px;
+}
+.profile-user .page-title {
+  color: #03f387;
+}
+.profile-user .table {
+  border-bottom: 1px solid white;
+}
+.profile-user .table thead th {
+  color: #03f387;
+  border: none;
+}
+.profile-user .table tbody {
+  color: white;
+  border-bottom: 1px;
+}
+.profile-user .table-striped > tbody > tr:nth-child(2n + 1) > td,
+.table-striped > tbody > tr:nth-child(2n + 1) > th {
+  background-color: #191c35;
+}
+.profile-user .table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  color: #03f387;
+  cursor: pointer;
+}
+
+.profile-user .profilePicture {
+  width: 100%;
+  object-fit: cover;
+}

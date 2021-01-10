@@ -1,0 +1,43 @@
+.transactions-page {
+  color: white;
+}
+
+.page-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.transactions-page .table {
+  border-bottom: 1px solid white;
+}
+.transactions-page .table thead th {
+  color: #03f387;
+  border: none;
+}
+
+.transactions-page .table tbody {
+  color: white;
+  border-bottom: 1px;
+}
+
+.transactions-page .table-striped > tbody > tr:nth-child(2n + 1) > td,
+.table-striped > tbody > tr:nth-child(2n + 1) > th {
+  background-color: #191c35;
+}
+
+.transactions-page .table td.Approved {
+  color: #0acf83;
+}
+.transactions-page .table td.Cancel {
+  color: #ff0742;
+}
+.transactions-page .table td.Pending {
+  color: #f7941e;
+}
+.transactions-page .table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  color: #03f387;
+  cursor: pointer;
+}

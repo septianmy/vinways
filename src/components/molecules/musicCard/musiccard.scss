@@ -1,0 +1,64 @@
+.card-music {
+    background-color:#363954 !important;
+    border-radius: 10px;
+}
+
+.card-music:hover {
+    background-color:#2b2d44 !important;
+}
+
+.play-music {
+    cursor: pointer;
+}
+
+.make-payment {
+    background-color: #191C35;
+    text-align: center;
+    align-items: center;
+}
+
+.make-payment p {
+    font-size: 20px;
+    color:#469F74;
+
+}
+
+.card-music-picture {
+    padding:10px 10px 0 10px !important;
+}
+
+.card-music-detail {
+    padding:10px !important;
+}
+
+.card-music-detail {
+    border-top: none !important;
+}
+
+.music-title, .music-year{
+    font-weight: bold;
+    color: white;
+}
+
+.music-title{
+    float:left;
+    max-width: 100px;
+    font-size:16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.music-year {
+    float: right;
+    text-align: right;
+    font-size: 12px;
+}
+
+.album {
+    float:left;
+    width:100%;
+    text-align: left;
+    color: #03F387;
+    font-size: 12px;
+    font-weight:bold;
+}

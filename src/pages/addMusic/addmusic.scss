@@ -1,0 +1,21 @@
+.addmusic .page-title {
+    color: #03F387;
+}
+.addmusic .table {
+    border-bottom:1px solid white;
+}
+.addmusic .table thead th {
+    color: #03F387;
+    border: none;
+}
+.addmusic .table tbody {
+    color: white;
+    border-bottom: 1px;
+}
+.addmusic .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color:#191C35;
+ }
+.addmusic .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+   color: #03F387;
+   cursor: pointer;
+}

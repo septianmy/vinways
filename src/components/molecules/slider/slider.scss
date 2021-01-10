@@ -1,0 +1,41 @@
+.slide {
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.slide .owl-carousel .owl-stage {
+    display:inline-flex;
+    justify-content: center;
+}
+.slide .owl-carousel .owl-item {
+    width:700px !important;
+}
+.carousel-control-prev, .carousel-control-next {
+    display: none !important;
+}
+
+.slide .shadow-left, .slide .shadow-right {
+    width: 315px;
+    height: 310px;
+    position: absolute;
+    z-index: 2;
+}
+.slide .shadow-left {
+    left:0;
+    background: linear-gradient(90deg, #C4C4C4 0%, #00031F 0.01%, rgba(0, 0, 0, 0) 96.51%);
+}
+
+.slide .shadow-right {
+    right:0;
+    background: linear-gradient(90deg, #C4C4C4 0%, #00031F 0.01%, rgba(0, 0, 0, 0) 96.51%);
+    transform: rotate(180deg);
+}
+
+.slide .owl-dots {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}

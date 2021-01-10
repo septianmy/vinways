@@ -1,0 +1,92 @@
+.container {
+  padding-right: 100px;
+  padding-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.authentication {
+  background-image: url(../../assets/images/auth-bg.svg);
+  background-position: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.header-auth img {
+  position: absolute;
+  top: 27px;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.left {
+  flex: 1;
+
+  .button {
+    width: 150px;
+  }
+}
+
+.right {
+  width: 350px;
+
+  .section-title {
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
+
+.ilustration {
+  font-family: Abhaya Libre Medium;
+  font-weight: 500;
+  font-size: 100px;
+
+  .everything {
+    margin-left: 130px;
+  }
+}
+.music-image {
+  position: absolute;
+  margin-top: 10px;
+}
+.tagline {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 33px;
+  color: #8b8b8b;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.green {
+  color: #03f387;
+}
+
+.button:active,
+input:active,
+textarea:active,
+select:active,
+.button:focus,
+input:focus,
+textarea:focus,
+select:focus,
+.button:focus:active,
+input:focus:active,
+textarea:focus:active,
+select:focus:active {
+  background-image: none !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
