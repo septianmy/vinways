@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const Port = "http://localhost:5001";
+export const Port = "http://vinways.herokuapp.com";
 
 export const API = axios.create({
     baseURL: "http://vinways.herokuapp.com/api/v1",
